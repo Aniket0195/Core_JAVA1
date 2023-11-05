@@ -1,6 +1,8 @@
+package com.demo.que1;
+
 import java.util.Scanner;
 
-class studentInfo{
+public class studentInfo{
 
     int studentId;
     String name;
