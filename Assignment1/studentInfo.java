@@ -55,6 +55,9 @@ public class studentInfo{
             students[i] = new studentInfo();
             acceptData(students[i]);
             displayData(students[i]);
+
+                      //  acceptData(students[i]);
+
         }
     }
 }
