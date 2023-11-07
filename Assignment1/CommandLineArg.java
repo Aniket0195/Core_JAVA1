@@ -3,13 +3,13 @@ public class CommandLineArg
     public static void main(String [] args)
     {
         System.out.println("You have entered numbers are");
-        for (int i= 0; i<args.length;i++)
+        for (int i= 0; i<args.length;i++)//args.legth will take the total argument you have passed and use it for loop iterations.
         {
             System.out.println(args[i]);
         }
         for(int i=0;i<args.length;i++)
         {
-            int number = Integer.parseInt(args[i]);
+            int number = Integer.parseInt(args[i]);//parseInt will convert the agrgument String into the integer
             if(isPrime(number))
             {
                 printTable(number);
@@ -24,7 +24,7 @@ public class CommandLineArg
 
     public static boolean isPrime(int number)
     {
-        for(int i = 2; i<Math.sqrt(number);i++)
+        for(int i = 2; i<Math.sqrt(number);i++)// math.sqrt will take squareroot of the number and it will rreduce the no of iterations
         {
         if(number%i == 0)
         return false;
