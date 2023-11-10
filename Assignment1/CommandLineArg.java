@@ -42,4 +42,4 @@ public class CommandLineArg
    
 }
 //to run the java command line argument ==>javac filename.java
-//for passing argument ==> java filename argument1 argument2 .......etc
+//for passing argument ==> java filename argument1 argument2 arg1 arg2 arg3.......etc
