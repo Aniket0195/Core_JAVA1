@@ -41,5 +41,6 @@ public class CommandLineArg
     }
    
 }
+//command line argument first compile the code using java filename. Java and then to pass the argument using Java filename arguments
 //to run the java command line argument ==>javac filename.java
 //for passing argument ==> java filename argument1 argument2 arg1 arg2 arg3.......etc
